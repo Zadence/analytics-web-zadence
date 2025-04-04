@@ -22,7 +22,9 @@
     "lint:fix": "biome check --write .",
     "lint:workspace": "pnpm dlx sherif@latest",
     "typecheck": "pnpm -r typecheck",
-    "update-simple-git-hooks": "npx simple-git-hooks"
+    "update-simple-git-hooks": "npx simple-git-hooks",
+    "build": "next build",
+    "start": "next start" 
   },
   "simple-git-hooks": {
     "pre-push": "pnpm typecheck"
