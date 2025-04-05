@@ -4,6 +4,7 @@
   "private": true,
   "license": "MIT",
   "author": "Carl-Gerhard Lindesvärd",
+  "packageManager": "pnpm@9.15.0",  
   "scripts": {
     "dock:up": "docker compose up -d",
     "dock:down": "docker compose down",
